@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="acwing web html">
+    <meta name="description" content="本课程为【Acwing工程课系列——Level-3 第一篇】Web应用课，讲解Web相关知识。">
+    <link rel="icon" href="/images/logo.jpg">
+    <title>Web应用课作业</title>
+</head>
+<body>
+    <h2>春江花月夜</h2>
+    <h5>张若虚</h5>
+    <p>
+        春江潮水连海平，海上明月共潮生。<br>
+        滟滟随波千万里，何处春江无月明！<br>
+        江流宛转绕芳甸，月照花林皆似霰；<br>
+        空里流霜不觉飞，汀上白沙看不见。<br>
+        江天一色无纤尘，皎皎空中孤月轮。<br>
+        江畔何人初见月？江月何年初照人？<br>
+        人生代代无穷已，江月年年望相似。<br>
+    </p>
+
+    <hr>
+
+    <pre>
+        int main()
+        {
+            int a, b;
+            scanf("%d%d", &a, &b);
+            printf("%d %d\n", a, b);
+            return 0;
+        }        
+    </pre>
+
+    <p>
+        <i>春眠不觉晓，</i><b>处处闻啼鸟。</b><del>夜来风雨声，</del><ins>花落知多少。</ins>
+    </p>
+
+    <img width="600" src="/images/marseille.jpg" alt="marseille">
+
+    <audio controls src="/audios/069.mp3">无法播放</audio>
+
+    <video controls width="600" src="/videos/5.维普.mp4"></video>
+
+    <br>
+    <a href="/about.html">About</a>
+    <br>
+    <a href="https://www.acwing.com" target="_blank">
+        <img width="50" src="/images/logo.jpg" alt="logo">
+    </a>
+
+    <br><br>
+
+    <form>
+        <label for="username"></label>
+        <input required type="text" placeholder="用户名" minlength="3" maxlength="15" name="username" id="username">
+
+        <br>
+
+        <label for="age"></label>
+        <input required type="number" placeholder="年龄" name="age" id="age">
+
+        <br>
+
+        <label for="email"></label>
+        <input required type="email" placeholder="邮箱" name="email" id="email">
+
+        <br>
+
+        <label for="password"></label>
+        <input required type="password" placeholder="密码" name="password" id="password">
+        
+        <br>
+        <label for="resume">个人简介</label>
+        <textarea name="resume" id="resume" rows="10" cols="30"></textarea>
+
+        <br>
+
+        <label for="lang">语言</label>
+        <select name="lang" id="lang">
+            <option value="Cpp">Cpp</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+        </select>
+
+        <br>
+
+        <button type="submit">提交</button>
+
+    </form>
+
+            <br><br><br>
+
+        <ol>
+            <li>第一讲</li>
+            <li>第二讲
+                <ul>
+                    <li>第一小节</li>
+                    <li>第二小节</li>
+                    <li>第三小节</li>
+                </ul>
+            </li>
+            <li>第三讲
+                <ol>
+                    <li>第一小节</li>
+                    <li>第二小节</li>
+                    <li>第三小节</li>                    
+                </ol>
+            </li>
+        </ol>
+
+    <table>
+        <caption>成绩单</caption>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>数学</th>
+                <th>语文</th>
+                <th>英语</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>100</td>
+                <td>99</td>
+                <td>98</td>
+            </tr>
+
+            <tr>
+                <td>Bob</td>
+                <td>99</td>
+                <td>98</td>
+                <td>97</td>
+            </tr>
+
+            <tr>
+                <td>Tom</td>
+                <td>98</td>
+                <td>97</td>
+                <td>96</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+        <br><br><br>
+
+        <header>
+            <figure>
+                <h4>图片</h4>
+                <img width="100" src="/images/logo.jpg" alt="logo">
+                <figcaption>logo</figcaption> 
+            </figure>
+
+            <figure>
+                <img width="100" src="/images/marseille.jpg" alt="Marseille">
+                <figcaption>马赛</figcaption>
+            </figure>
+        </header>
+
+        <section>
+            <h4>古诗</h4>
+            <article>
+                <h5>春晓</h5>
+                <p>春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。</p>
+            </article>
+
+            <article>
+                <h5>咏柳</h5>
+                <p>碧玉妆成一树高，万条垂下绿丝绦，不知细叶谁裁出，二月春风似剪刀</p>
+            </article>
+
+            <footer>
+                &copy;2018-2025 Me 版权所有
+            </footer>
+</body>
+</html>
